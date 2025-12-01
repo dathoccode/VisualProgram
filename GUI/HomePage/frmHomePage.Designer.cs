@@ -33,9 +33,9 @@
             this.btnAccountInfo = new Guna.UI2.WinForms.Guna2Button();
             this.btnManage = new Guna.UI2.WinForms.Guna2Button();
             this.btnStatistic = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCheckIn = new Guna.UI2.WinForms.Guna2Button();
             this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.pnMain = new System.Windows.Forms.Panel();
-            this.btnCheckIn = new Guna.UI2.WinForms.Guna2Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,7 +101,7 @@
             // btnManage
             // 
             this.btnManage.BackColor = System.Drawing.Color.Transparent;
-            this.btnManage.CustomImages.Image = global::ABCCoffee.Properties.Resources.icon_order;
+            this.btnManage.CustomImages.Image = global::ABCCoffee.Properties.Resources.icon_manage;
             this.btnManage.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
             this.btnManage.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnManage.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -122,7 +122,7 @@
             // btnStatistic
             // 
             this.btnStatistic.BackColor = System.Drawing.Color.Transparent;
-            this.btnStatistic.CustomImages.Image = global::ABCCoffee.Properties.Resources.icon_order;
+            this.btnStatistic.CustomImages.Image = global::ABCCoffee.Properties.Resources.icon_statistic;
             this.btnStatistic.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
             this.btnStatistic.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnStatistic.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -140,10 +140,31 @@
             this.btnStatistic.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnStatistic.Click += new System.EventHandler(this.btnStatistic_Click);
             // 
+            // btnCheckIn
+            // 
+            this.btnCheckIn.BackColor = System.Drawing.Color.Transparent;
+            this.btnCheckIn.CustomImages.Image = global::ABCCoffee.Properties.Resources.icon_checkin;
+            this.btnCheckIn.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnCheckIn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCheckIn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCheckIn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCheckIn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCheckIn.FillColor = System.Drawing.Color.White;
+            this.btnCheckIn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCheckIn.ForeColor = System.Drawing.Color.Black;
+            this.btnCheckIn.Location = new System.Drawing.Point(605, 13);
+            this.btnCheckIn.Margin = new System.Windows.Forms.Padding(7, 3, 7, 3);
+            this.btnCheckIn.Name = "btnCheckIn";
+            this.btnCheckIn.Size = new System.Drawing.Size(141, 62);
+            this.btnCheckIn.TabIndex = 5;
+            this.btnCheckIn.Text = "Chấm công";
+            this.btnCheckIn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnCheckIn.Click += new System.EventHandler(this.btnCheckIn_Click);
+            // 
             // btnExit
             // 
             this.btnExit.BackColor = System.Drawing.Color.Transparent;
-            this.btnExit.CustomImages.Image = global::ABCCoffee.Properties.Resources.icon_order;
+            this.btnExit.CustomImages.Image = global::ABCCoffee.Properties.Resources.icon_checkout;
             this.btnExit.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
             this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -168,27 +189,6 @@
             this.pnMain.Name = "pnMain";
             this.pnMain.Size = new System.Drawing.Size(1124, 483);
             this.pnMain.TabIndex = 1;
-            // 
-            // btnCheckIn
-            // 
-            this.btnCheckIn.BackColor = System.Drawing.Color.Transparent;
-            this.btnCheckIn.CustomImages.Image = global::ABCCoffee.Properties.Resources.icon_checkin;
-            this.btnCheckIn.CustomImages.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnCheckIn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCheckIn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCheckIn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCheckIn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCheckIn.FillColor = System.Drawing.Color.White;
-            this.btnCheckIn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnCheckIn.ForeColor = System.Drawing.Color.Black;
-            this.btnCheckIn.Location = new System.Drawing.Point(605, 13);
-            this.btnCheckIn.Margin = new System.Windows.Forms.Padding(7, 3, 7, 3);
-            this.btnCheckIn.Name = "btnCheckIn";
-            this.btnCheckIn.Size = new System.Drawing.Size(141, 62);
-            this.btnCheckIn.TabIndex = 5;
-            this.btnCheckIn.Text = "Chấm công";
-            this.btnCheckIn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnCheckIn.Click += new System.EventHandler(this.btnCheckIn_Click);
             // 
             // frmHomePage
             // 

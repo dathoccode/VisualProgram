@@ -110,8 +110,6 @@
     <Compile Include="DAL\TableDAL.cs" />
     <Compile Include="DTO\AccountDTO.cs" />
     <Compile Include="DTO\FoodDTO.cs" />
-    <Compile Include="DTO\OrderDetailDTO.cs" />
-    <Compile Include="DTO\OrderDTO.cs" />
     <Compile Include="DTO\TableDTO.cs" />
     <Compile Include="GUI\HomePage\frmHomePage.cs">
       <SubType>Form</SubType>
@@ -216,17 +214,17 @@
   <ItemGroup>
     <Content Include="Data\DatabaseGenerator.sql" />
     <Content Include="Resources\adminimage.jpg" />
-    <Content Include="Resources\avatar_default.jpg" />
     <None Include="Resources\icon_account.png" />
     <None Include="Resources\avatar_default1.jpg" />
-    <Content Include="Resources\icon_camera.png" />
     <None Include="Resources\icon_camera1.png" />
     <None Include="Resources\icon_checkin.png" />
+    <None Include="Resources\icon_checkout.png" />
     <Content Include="Resources\icon_greencheck.png" />
     <None Include="Resources\icon_order.png" />
+    <None Include="Resources\icon_manage.png" />
     <Content Include="Resources\icon_redcheck.png" />
-    <Content Include="Resources\icon_search.png" />
     <None Include="Resources\icon_search1.png" />
+    <None Include="Resources\icon_statistic.png" />
     <Content Include="Resources\login_bg.jpg" />
   </ItemGroup>
   <ItemGroup>

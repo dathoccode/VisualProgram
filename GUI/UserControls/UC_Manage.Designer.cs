@@ -47,7 +47,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.tbAccountName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.gbAccountList = new System.Windows.Forms.GroupBox();
             this.dgvAccountList = new System.Windows.Forms.DataGridView();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnEdit = new Guna.UI2.WinForms.Guna2Button();
@@ -59,7 +59,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cbSearchBy = new System.Windows.Forms.ComboBox();
             this.tpTable = new System.Windows.Forms.TabPage();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gbTableList = new System.Windows.Forms.GroupBox();
             this.dgvTableList = new System.Windows.Forms.DataGridView();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnAddTable = new Guna.UI2.WinForms.Guna2Button();
@@ -67,11 +67,11 @@
             this.tcManagement.SuspendLayout();
             this.tpAccount.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.gbAccountList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccountList)).BeginInit();
             this.flowLayoutPanel2.SuspendLayout();
             this.tpTable.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.gbTableList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTableList)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -110,7 +110,7 @@
             // tpAccount
             // 
             this.tpAccount.Controls.Add(this.panel1);
-            this.tpAccount.Controls.Add(this.groupBox2);
+            this.tpAccount.Controls.Add(this.gbAccountList);
             this.tpAccount.Controls.Add(this.flowLayoutPanel2);
             this.tpAccount.Location = new System.Drawing.Point(4, 44);
             this.tpAccount.Name = "tpAccount";
@@ -306,16 +306,16 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "Tài khoản";
             // 
-            // groupBox2
+            // gbAccountList
             // 
-            this.groupBox2.Controls.Add(this.dgvAccountList);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.groupBox2.Location = new System.Drawing.Point(3, 63);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(762, 369);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Danh sách tài khoản";
+            this.gbAccountList.Controls.Add(this.dgvAccountList);
+            this.gbAccountList.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gbAccountList.Location = new System.Drawing.Point(3, 63);
+            this.gbAccountList.Name = "gbAccountList";
+            this.gbAccountList.Size = new System.Drawing.Size(762, 369);
+            this.gbAccountList.TabIndex = 2;
+            this.gbAccountList.TabStop = false;
+            this.gbAccountList.Text = "Danh sách tài khoản";
             // 
             // dgvAccountList
             // 
@@ -478,7 +478,7 @@
             // 
             // tpTable
             // 
-            this.tpTable.Controls.Add(this.groupBox1);
+            this.tpTable.Controls.Add(this.gbTableList);
             this.tpTable.Controls.Add(this.flowLayoutPanel1);
             this.tpTable.Location = new System.Drawing.Point(4, 44);
             this.tpTable.Name = "tpTable";
@@ -489,16 +489,16 @@
             this.tpTable.UseVisualStyleBackColor = true;
             this.tpTable.Enter += new System.EventHandler(this.tpTable_Enter);
             // 
-            // groupBox1
+            // gbTableList
             // 
-            this.groupBox1.Controls.Add(this.dgvTableList);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Location = new System.Drawing.Point(3, 63);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1110, 369);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Danh sách bàn";
+            this.gbTableList.Controls.Add(this.dgvTableList);
+            this.gbTableList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gbTableList.Location = new System.Drawing.Point(3, 63);
+            this.gbTableList.Name = "gbTableList";
+            this.gbTableList.Size = new System.Drawing.Size(1110, 369);
+            this.gbTableList.TabIndex = 1;
+            this.gbTableList.TabStop = false;
+            this.gbTableList.Text = "Danh sách bàn";
             // 
             // dgvTableList
             // 
@@ -574,12 +574,12 @@
             this.tpAccount.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
+            this.gbAccountList.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAccountList)).EndInit();
             this.flowLayoutPanel2.ResumeLayout(false);
             this.flowLayoutPanel2.PerformLayout();
             this.tpTable.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
+            this.gbTableList.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTableList)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -594,7 +594,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private Guna.UI2.WinForms.Guna2Button btnAddTable;
         private Guna.UI2.WinForms.Guna2Button btnRemoveTable;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gbTableList;
         private System.Windows.Forms.DataGridView dgvTableList;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Label label1;
@@ -602,7 +602,7 @@
         private Guna.UI2.WinForms.Guna2Button btnSearch;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cbSearchBy;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox gbAccountList;
         private System.Windows.Forms.DataGridView dgvAccountList;
         private Guna.UI2.WinForms.Guna2Button btnAddAccount;
         private Guna.UI2.WinForms.Guna2Button btnRemoveAccount;

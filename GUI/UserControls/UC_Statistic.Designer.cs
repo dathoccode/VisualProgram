@@ -36,10 +36,7 @@
             this.cbChartType = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pnChart = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
-            this.pnChart.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -125,22 +122,11 @@
             // pnChart
             // 
             this.pnChart.BackColor = System.Drawing.Color.White;
-            this.pnChart.Controls.Add(this.dataGridView1);
             this.pnChart.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnChart.Location = new System.Drawing.Point(330, 0);
             this.pnChart.Name = "pnChart";
             this.pnChart.Size = new System.Drawing.Size(794, 483);
             this.pnChart.TabIndex = 1;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(350, 129);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView1.TabIndex = 0;
             // 
             // UC_Statistic
             // 
@@ -153,8 +139,6 @@
             this.Load += new System.EventHandler(this.UC_Statistic_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.pnChart.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -169,6 +153,5 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker dtpEndTime;
-        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

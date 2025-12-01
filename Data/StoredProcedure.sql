@@ -99,14 +99,14 @@ end
 go
 
 create or alter proc USP_UpdateAccount
-@AccountName nvarchar(100),
-@DisplayName nvarchar(100),
-@Password nvarchar(20),
-@RoleID int,
-@Phone char(10),
-@DateOfBirth datetime,
-@Gender nvarchar(20),
-@ImagePath nvarchar(255)
+	@AccountName nvarchar(100),
+	@DisplayName nvarchar(100),
+	@Password nvarchar(20),
+	@RoleID int,
+	@Phone char(10),
+	@DateOfBirth datetime,
+	@Gender nvarchar(20),
+	@ImagePath nvarchar(255)
 as begin
 	if @ImagePath = '' or @ImagePath is null
 		select @ImagePath = ImagePath from tAccount where AccountName = @AccountName

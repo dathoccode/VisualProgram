@@ -40,6 +40,13 @@
             this.rptViewer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rptViewer.Location = new System.Drawing.Point(0, 0);
             this.rptViewer.Name = "rptViewer";
+            this.rptViewer.ShowCloseButton = false;
+            this.rptViewer.ShowGotoPageButton = false;
+            this.rptViewer.ShowGroupTreeButton = false;
+            this.rptViewer.ShowLogo = false;
+            this.rptViewer.ShowPageNavigateButtons = false;
+            this.rptViewer.ShowParameterPanelButton = false;
+            this.rptViewer.ShowTextSearchButton = false;
             this.rptViewer.Size = new System.Drawing.Size(800, 450);
             this.rptViewer.TabIndex = 0;
             // 
